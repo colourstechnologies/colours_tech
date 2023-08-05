@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Us - Colours Technologies</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            text-align: center;
+            background: linear-gradient(45deg, #f2c94c, #6fcf97, #2f80ed, #bb6bd9, #eb5757, #f2994a);
+            background-size: 600% 600%;
+            animation: gradient 15s infinite;
+        }
+        @keyframes gradient {
+            0% {background-position: 0% 50%;}
+            50% {background-position: 100% 50%;}
+            100% {background-position: 0% 50%;}
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #c3c3c3;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #333;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+        nav a:hover {
+            color: #0505f2;
+        }
+        h1, h2 {
+            color: #FFF;
+        }
+        p {
+            color: #FFF;
+        }
+        .form-container {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 5px;
+            color: #333;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        .form-container input[type="text"], .form-container input[type="submit"] {
+            padding: 5px;
+            margin: 10px 0;
+            width: 100%;
+        }
+        .form-container input[type="submit"] {
+            background-color: #0505f2;
+            color: #FFF;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="courses.html">Courses</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="login.html">Login</a>
+    </nav>
+    <h1>About Us</h1>
+    <p>At Colours Technologies, Our Mission Is To Empower Individuals And Organisations With The Knowledge And Skills Needed To Thrive In The Ever-Evolving World Of Technology.</p>
+    <p>For More Than 8+ Years, We Have Been Dedicated To Providing Top-Quality Training In DevOps, AWS, Azure, And Azure DevOps, Enabling Our Students To Become Proficient IT Professionals In These Cutting-Edge Domains.</p>
+    <p>Our Expertise And Track Record Speak For Themselves.</p>
+    <p>Not Only Have We Successfully Trained And Placed Thousands Of Individuals, But We Have Also Provided Cutting-Edge IT Solutions On Cloud And DevOps For Renowned Companies Like Nash Industries, Chitale Dairy, And Techved.</p>
+    <!-- Your further content -->
+    <h1>Get Exclusive Offers & Notifications</h1>
+    <p>Get Latest Company Updates</p>
+    <div class="form-container">
+        <form>
+            <label for="email">Enter Your Email</label><br>
+            <input type="text" id="email" name="email"><br>
+            <input type="submit" value="GET UPDATES">
+        </form>
+    </div>
+</body>
+</html>
